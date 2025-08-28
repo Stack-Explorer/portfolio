@@ -40,7 +40,7 @@ const About = () => {
           Hey there! I'm a MERN stack developer who loves building cool web apps with React, Node.js, Express, and MongoDB. I enjoy writing clean code, working with APIs, and always exploring new stuff to level up my skills.
           </p>
           {/* Resume Button */}
-          <a href="/resume.docx" download="Resume.docx"
+          <a href="/Resume.pdf" download="Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
