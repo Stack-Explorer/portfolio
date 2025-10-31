@@ -24,6 +24,7 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Fullstack Web Developer',
+                'Freelancer'
               ]}
               speed={100}
               eraseSpeed={50}
@@ -35,6 +36,10 @@ const About = () => {
             />
           </h3>
           {/* About Me Paragraph */}
+
+           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
+          Hey there! I'm a MERN stack developer who loves building cool web apps with React, Node.js, Express, and MongoDB. I enjoy writing clean code, working with APIs, and always exploring new stuff to level up my skills.
+          </p>
 
           {/* Resume Button */}
           <a href="/Resume.pdf" download="Resume.pdf"

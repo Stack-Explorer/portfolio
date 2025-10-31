@@ -32,7 +32,6 @@ const Navbar = () => {
   const menuItems = [
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
-    { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
     {id : "contact",label : "Get in Touch"}
   ];
@@ -75,7 +74,7 @@ const Navbar = () => {
             href="https://github.com/stack-explorer"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#8245ec]"
+            className="text-gray-300 hover:text-[#8245ec] hover:scale-110"
           >
             <FaGithub size={24} />
           </a>
@@ -83,7 +82,7 @@ const Navbar = () => {
             href="https://www.linkedin.com/in/vinit-rajwani-8468b026b/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#8245ec]"
+            className="text-gray-300 hover:text-[#8245ec] hover:scale-110"
           >
             <FaLinkedin size={24} />
           </a>
